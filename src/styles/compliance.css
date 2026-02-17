@@ -1,0 +1,103 @@
+/* Compliance report styles */
+
+/* Flagged row highlighting in alerts tables */
+.compliance-table .flagged-row {
+  background-color: #fff5f5;
+}
+
+.compliance-table .flagged-row td:first-child {
+  border-left: 3px solid #e74a3b;
+}
+
+.compliance-table th {
+  background-color: #f8f9fc;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #5a5c69;
+}
+
+.compliance-table td {
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+/* Parameter table code styling */
+.compliance-params code {
+  background-color: #f0f4f8;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #395E9D;
+}
+
+/* Category badge */
+.compliance-category-badge {
+  font-size: 12px;
+  padding: 4px 12px;
+  background-color: #395E9D;
+  color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+/* Active sidebar item */
+.collapse-item.active-view {
+  font-weight: 700 !important;
+  color: #395E9D !important;
+}
+
+/* Detection logic ordered list */
+.detection-logic ol {
+  padding-left: 1.5rem;
+}
+
+.detection-logic li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Section spacing within compliance pages */
+.compliance-section {
+  margin-bottom: 2rem;
+}
+
+.compliance-section h3 {
+  color: #395E9D;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 0.5rem;
+}
+
+/* Sidebar compliance heading */
+.sidebar-heading-compliance {
+  font-size: 0.65rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 0.75rem 1rem;
+}
+
+/* Clickable sidebar items */
+.collapse-item.clickable {
+  cursor: pointer;
+  transition: color 0.15s ease-in-out;
+}
+
+.collapse-item.clickable:hover {
+  color: #395E9D;
+  font-weight: 600;
+}
+
+/* Chart container consistency */
+.compliance-chart-container {
+  margin-bottom: 1.5rem;
+}
+
+.compliance-chart-container h5 {
+  color: #5a5c69;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
