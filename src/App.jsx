@@ -12,7 +12,7 @@ const scrollToTop = (event) => {
 
 const App = () => {
   const [sidebarToggled, setSidebarToggled] = useState(false)
-  const [activeView, setActiveView] = useState('introduction')
+  const [activeView, setActiveView] = useState('report')
 
   useEffect(() => {
     document.body.classList.toggle('sidebar-toggled', sidebarToggled)
