@@ -48,6 +48,12 @@
   color: #395E9D !important;
 }
 
+.nav-link.active-view {
+  background-color: rgba(255, 255, 255, 0.15);
+  font-weight: 700 !important;
+  border-radius: 4px;
+}
+
 /* Detection logic ordered list */
 .detection-logic ol {
   padding-left: 1.5rem;
